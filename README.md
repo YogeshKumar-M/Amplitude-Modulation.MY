@@ -1,3 +1,4 @@
+
 # Amplitude-Modulation
 
 EXP NO: 1	GENERATION AND DETECTION OF AM
@@ -76,10 +77,26 @@ Compare the original modulating signal with the demodulated signal. PROCEDURE
 
 Program
 
+Am=4.6;
+fm=407;
+Ac=9.2;
+fc=4070;
+fs=40700;
+t=0:1/fs:2/fm;
+m=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+s=(Ac+m).*cos(2*3.14*fc*t);
+subplot(3,1,3);
+plot(t,s);
 
 
 Output Waveform
 
+<img width="768" height="724" alt="Screenshot 2025-09-10 125241" src="https://github.com/user-attachments/assets/ad9e8d15-db2d-4a32-a710-c863f936f245" />
 
 
 
@@ -89,7 +106,7 @@ TABULATION:
 
 
 Calculation
-1.	ma (Theory) = am/ac =
+1.	ma (Theory) = am/ac = 4.6/9.2 = 0.5
 2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =
 
 
