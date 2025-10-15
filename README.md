@@ -105,9 +105,9 @@ Output Waveform
 TABULATION:
 
 
-![WhatsApp Image 2025-09-25 at 15 33 33_c33a5831](https://github.com/user-attachments/assets/06e1362a-5603-447e-bf76-55153e311c8e)
 
 
+![WhatsApp Image 2025-10-15 at 13 55 14_e1c6893a](https://github.com/user-attachments/assets/123f0580-5263-48e4-80b5-ab2a5bdaa10c)
 
 
 Calculation
@@ -120,6 +120,7 @@ MODEL GRAPH
  <img width="919" height="1290" alt="image" src="https://github.com/user-attachments/assets/55326c5b-7dd5-4873-aaf6-d219bb7c4420" />
 
  
+
  
 
 
